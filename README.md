@@ -26,9 +26,9 @@ The core element is an `ElevatorControlSystem` instance. The one implementation 
 
 There are three types of operations in `ElevatorControlSystem`:
 
-# Reading information about the elevators
-# Pushing an "up" or "down" button on a floor or a specific floor button in an elevator
-# Manually stepping the elevator bank simulation to the next transition for every elevator.
+1. Reading information about the elevators
+2. Pushing an "up" or "down" button on a floor or a specific floor button in an elevator
+3. Manually stepping the elevator bank simulation to the next transition for every elevator.
 
 Here are the public methods for the elevator system.
 
@@ -73,9 +73,9 @@ The algorithm is not first-come, first-served, but calculates the shortest path 
 
 Here is the algorithm:
 
-# Pick a floor one away from the requested floor in the requested direction
-# For all elevators, copy the elevator, add the floor to the destination, and count how many steps it takes until the elevator arrives there
-# Pick the shortest path and add the requested floor to that elevator's destination
+1. Pick a floor one away from the requested floor in the requested direction
+2. For all elevators, copy the elevator, add the floor to the destination, and count how many steps it takes until the elevator arrives there
+3. Pick the shortest path and add the requested floor to that elevator's destination
 
 Problems:
 
