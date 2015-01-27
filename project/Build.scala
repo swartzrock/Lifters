@@ -4,8 +4,7 @@ import sbt.Keys._
 object App extends Build 
 {
   val appDependencies = List(
-    "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test",
-    "org.json4s" %% "json4s-native" % "3.2.10"
+    "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test"
   )
 
   val appSettings = List(
